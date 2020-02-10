@@ -1,8 +1,8 @@
 import requests
-import pandas as pd
+import pandas
 import re
 
-class WaterStationData():
+class WaterStationDailyData():
     """This is a class for Water Station Data from the USGS Water API for daily
     values of data at various water stations across USA
     (https://waterservices.usgs.gov/rest/DV-Service.html).
